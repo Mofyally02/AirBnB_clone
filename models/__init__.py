@@ -1,14 +1,6 @@
-"""This module initializes the models package"""
+#!/usr/bin/env python3
 
+from . import engine
 
-from os import getenv
-
-# DBSTORAGE
-if getenv('HBNB_TYPE_STORAGE') == 'db':
-    from models.engine.db_storage import DBStorage
-    storage = DBStorage()
-# FILESTORAGE
-else:
-    from models.engine.file_storage import FileStorage
-    storage = FileStorage()
+storage = engine.file_storage.FileStorage()
 storage.reload()
