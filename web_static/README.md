@@ -1,7 +1,9 @@
 # The AirBnB Clone Project
 
 ## HTML and CSS
-https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step1.png
+
+![AirBnB Front-End](https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step1.png)
+
 
 ## General Concept
 
