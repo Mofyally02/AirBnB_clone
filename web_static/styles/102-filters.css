@@ -1,0 +1,33 @@
+/* Filters styles for responsive design */
+.filters {
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  .filters .dropdown {
+    margin-bottom: 10px;
+  }
+  
+  .filters .dropdown h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .filters .dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .filters .dropdown ul li {
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 600px) {
+    .filters {
+      padding: 10px;
+    }
+  }
+  

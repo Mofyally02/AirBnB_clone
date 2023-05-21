@@ -1,0 +1,23 @@
+/* Header styles for responsive design */
+.header {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header p {
+    margin: 0;
+  }
+  
+  @media (max-width: 600px) {
+    .header {
+      padding: 10px;
+    }
+  }
+  
