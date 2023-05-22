@@ -1,18 +1,11 @@
-/* Footer styles for responsive design */
-.footer {
-    background-color: #333333;
-    color: #FFFFFF;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .footer p {
-    margin: 0;
-  }
-  
-  @media (max-width: 600px) {
-    .footer {
-      padding: 10px;
-    }
-  }
-  
+footer {
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
